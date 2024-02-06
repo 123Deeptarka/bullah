@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd 
 import pickle 
 
-model =pickle.load(open("app","rb"))
+model =pickle.load(open("abcd","rb"))
 #import shap 
 #import matplotlib.pyplot as plt
 
