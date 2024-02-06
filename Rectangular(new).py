@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd 
 import pickle 
 
-model =pickle.load(open("Rectangular CFSST Columns","rb"))
+model =pickle.load(open("app","rb"))
 #import shap 
 #import matplotlib.pyplot as plt
 
